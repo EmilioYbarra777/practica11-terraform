@@ -27,3 +27,5 @@ resource "cloudflare_workers_script_subdomain" "subdomain" {
   script_name = cloudflare_workers_script.worker.script_name
   enabled     = true
 }
+
+// comentario random
